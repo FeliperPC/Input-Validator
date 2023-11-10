@@ -1,0 +1,50 @@
+body{
+    min-height: 100vh;
+    overflow: hidden;
+    background-color: #273469;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    color: #FAFAFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(30,39,73,0.3);
+    border-radius: 30px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+input{
+    width: 80%;
+    background-color: rgba(30,39,73,1);
+    border-radius: 5px;
+    border-style: double;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+}
+select{
+    width: 90%;
+    margin-top: 8px;
+    background-color: rgba(30,39,73,1);
+    border-radius: 5px;
+    border-style: inherit;
+    color: #FAFAFF;
+    font-size: 20px;
+    padding: 10px;
+}
+button{
+    margin-top: 8px;
+    width: 90%;
+    background-color: #273469;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
